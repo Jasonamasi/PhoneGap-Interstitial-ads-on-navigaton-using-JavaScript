@@ -4,9 +4,9 @@
         id          =     "com.pointdeveloper.allcouriertracking"
         versionCode =   "1"
         version     =    "1.0.0">
-  <name>Phonegap Buil Admob demo</name>
+  <name>Phonegap Build Admob demo</name>
   <description>
- App to check admob ads.
+ App to check admob ads
     </description>
   <author email="news@pointdeveloper.com" href="http://pointdeveloper.com/">
       Prantik vaghela
@@ -20,8 +20,7 @@
   <preference name="fullscreen" value="true" />
   <preference name="KeepRunning" value="false"/>
   <preference name="android-minSdkVersion" value="16" />
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3000" />
+
   <preference name="permissions" value="none"/>
 
   <preference name="android-build-tool" value="gradle" /> 
