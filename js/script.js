@@ -21,6 +21,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
 
 if(window.AdMob) AdMob.createBanner( {
     adId:admobid.banner, 
+    isTesting:true,
     position:AdMob.AD_POSITION.BOTTOM_CENTER, 
     autoShow:true} );
 
