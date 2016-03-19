@@ -1,5 +1,5 @@
 function adSetter(){
-// alert(navigator.userAgent);
+ alert(navigator.userAgent);
 var admobid = {};
 // select the right Ad Id according to platform
 if( /(android)/i.test(navigator.userAgent) ) { 
@@ -30,7 +30,7 @@ if(window.AdMob) AdMob.createBanner( {
 
 }
   function onDeviceReady(){
-  // alert("device ready");
+   alert("device ready");
       adSetter();
   }
 
